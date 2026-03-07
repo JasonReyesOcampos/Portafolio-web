@@ -39,7 +39,7 @@ export function createSkills(): HTMLElement {
           Stack técnico
         </h2>
         <p class="text-gray-400 max-w-xl mx-auto">
-          Tecnologias y herramientas que domino para construir soluciones backend robustas.
+          Tecnologías y herramientas que domino para construir soluciones full stack robustas.
         </p>
       </div>
 

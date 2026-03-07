@@ -29,15 +29,15 @@ export function createHero(): HTMLElement {
       </div>
 
       <div class="order-1 lg:order-2 reveal" style="transition-delay:0.15s">
-        <span class="section-label mb-5">Backend Developer Junior</span>
+        <span class="section-label mb-5">Full Stack Developer</span>
         <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-6">
-          Construyendo sistemas
-          <span class="text-brand"> robustos</span>
+          Construyendo soluciones
+          <span class="text-brand"> completas</span>
           con código limpio
         </h1>
         <p class="text-gray-400 text-lg leading-relaxed mb-8 max-w-lg">
           Estudiante de último año en Ingeniería en Sistemas de Información (UNA).
-          Especializado en arquitecturas backend escalables con .NET, NestJS y Node.js.
+          Desarrollo full stack con .NET, NestJS, Node.js y React.
           Abierto a trabajo remoto e internacional.
         </p>
 

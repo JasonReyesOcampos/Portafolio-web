@@ -10,14 +10,15 @@ export function createAbout(): HTMLElement {
         <div class="reveal">
           <span class="section-label mb-4">Sobre mí</span>
           <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
-            Desarrollador backend con visión arquitectónica
+            Desarrollador full stack con visión arquitectónica
           </h2>
           <div class="space-y-4 text-gray-400 leading-relaxed text-base">
             <p>
               Soy estudiante de último año de Ingeniería en Sistemas de Información en
               la Universidad Nacional de Costa Rica (graduación estimada 2026).
-              Mi enfoque principal es el desarrollo backend, donde combino conocimientos
-              técnicos sólidos con una comprensión profunda de la arquitectura de software.
+              Me especializo en desarrollo full stack, combinando conocimientos
+              técnicos sólidos tanto en frontend como en backend con una comprensión
+              profunda de la arquitectura de software.
             </p>
             <p>
               Lo que me distingue es mi interés en la arquitectura de sistemas y la
@@ -67,7 +68,7 @@ export function createAbout(): HTMLElement {
             <div class="text-brand text-3xl mb-3">&#9889;</div>
             <h3 class="text-white font-semibold mb-2">Backend First</h3>
             <p class="text-gray-500 text-sm leading-relaxed">
-              Especialización en .NET, NestJS, APIs REST y bases de datos relacionales.
+              Desarrollo end-to-end con .NET, NestJS, Node.js y React.
             </p>
           </div>
 

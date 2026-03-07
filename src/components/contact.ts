@@ -13,7 +13,7 @@ export function createContact(): HTMLElement {
           Hablemos
         </h2>
         <p class="text-gray-400 max-w-xl mx-auto">
-          Estoy buscando oportunidades como Backend Developer Junior.
+          Estoy buscando oportunidades como Full Stack Developer.
           No dudes en escribirme.
         </p>
       </div>
