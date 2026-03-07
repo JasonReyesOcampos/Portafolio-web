@@ -13,11 +13,11 @@ export const projects: Project[] = [
     id: 'bomberil-nosara',
     title: 'Proyecto Bomberil Nosara',
     description:
-      'Sistema de gestion organizacional para la estacion de bomberos de Nosara. Resuelve problemas de gestion interna, permite transparencia y agiliza procesos operativos.',
+      'Sistema de gestión organizacional para la estacion de bomberos de Nosara. Resuelve problemas de gestion interna, permite transparencia y agiliza procesos operativos.',
     details: [
-      'Modulo de voluntariado para usuarios voluntarios (backend y frontend)',
-      'Landing page dinamica con contenido editable',
-      'Implementacion full-stack: API REST y desarrollo de interfaz',
+      'Módulo de voluntariado para usuarios voluntarios (backend y frontend)',
+      'Landing page dinámica con contenido editable',
+      'Implementación full-stack: API REST y desarrollo de interfaz',
     ],
     technologies: ['React', 'NestJS', 'TypeORM', 'MySQL'],
     url: 'https://bomberosnosara.cloud/',
