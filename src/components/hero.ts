@@ -21,7 +21,7 @@ export function createHero(): HTMLElement {
               <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 mx-auto mb-3 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
               </svg>
-              <p class="text-sm font-medium">Foto proxima</p>
+              <p class="text-sm font-medium">Foto próxima</p>
             </div>
           </div>
           <div class="absolute -bottom-6 -right-6 w-36 h-36 bg-brand/8 rounded-full blur-2xl pointer-events-none"></div>
@@ -33,10 +33,10 @@ export function createHero(): HTMLElement {
         <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-6">
           Construyendo sistemas
           <span class="text-brand"> robustos</span>
-          con codigo limpio
+          con código limpio
         </h1>
         <p class="text-gray-400 text-lg leading-relaxed mb-8 max-w-lg">
-          Estudiante de ultimo anio en Ingenieria en Sistemas de Informacion (UNA).
+          Estudiante de último año en Ingeniería en Sistemas de Información (UNA).
           Especializado en arquitecturas backend escalables con .NET, NestJS y Node.js.
           Abierto a trabajo remoto e internacional.
         </p>

@@ -97,7 +97,7 @@ export function createProjects(): HTMLElement {
           Trabajo real, soluciones reales
         </h2>
         <p class="text-gray-400 max-w-xl mx-auto">
-          Proyectos donde aplique mis conocimientos tecnicos para resolver problemas concretos.
+          Proyectos donde apliqué mis conocimientos técnicos para resolver problemas concretos.
         </p>
       </div>
 
@@ -110,7 +110,7 @@ export function createProjects(): HTMLElement {
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
             </svg>
           </div>
-          <p class="text-gray-500 font-medium">Mas proyectos proximamente</p>
+          <p class="text-gray-500 font-medium">Más proyectos próximamente</p>
           <p class="text-gray-700 text-sm mt-1">En construccion...</p>
         </div>
       </div>

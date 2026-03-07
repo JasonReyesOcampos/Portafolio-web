@@ -36,7 +36,7 @@ export function createSkills(): HTMLElement {
       <div class="text-center mb-16 reveal">
         <span class="section-label mb-4">Habilidades</span>
         <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">
-          Stack tecnico
+          Stack técnico
         </h2>
         <p class="text-gray-400 max-w-xl mx-auto">
           Tecnologias y herramientas que domino para construir soluciones backend robustas.

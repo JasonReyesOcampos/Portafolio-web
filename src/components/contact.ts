@@ -46,7 +46,7 @@ export function createContact(): HTMLElement {
               </svg>
             </div>
             <div>
-              <p class="text-gray-500 text-xs uppercase tracking-widest mb-1">Telefono</p>
+              <p class="text-gray-500 text-xs uppercase tracking-widest mb-1">Teléfono</p>
               <p class="text-white text-sm font-medium">${contactInfo.phone}</p>
             </div>
           </a>
@@ -76,7 +76,7 @@ export function createContact(): HTMLElement {
               </svg>
             </div>
             <div>
-              <p class="text-gray-500 text-xs uppercase tracking-widest mb-1">Ubicacion</p>
+              <p class="text-gray-500 text-xs uppercase tracking-widest mb-1">Ubicación</p>
               <p class="text-white text-sm font-medium">${contactInfo.location}</p>
             </div>
           </div>

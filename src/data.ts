@@ -2,7 +2,7 @@ import type { Project, SkillCategory, ContactInfo, NavItem } from './types'
 
 export const navItems: NavItem[] = [
   { label: 'Inicio', href: '#home' },
-  { label: 'Sobre mi', href: '#about' },
+  { label: 'Sobre mí', href: '#about' },
   { label: 'Proyectos', href: '#projects' },
   { label: 'Habilidades', href: '#skills' },
   { label: 'Contacto', href: '#contact' },
@@ -13,7 +13,7 @@ export const projects: Project[] = [
     id: 'bomberil-nosara',
     title: 'Proyecto Bomberil Nosara',
     description:
-      'Sistema de gestión organizacional para la estacion de bomberos de Nosara. Resuelve problemas de gestion interna, permite transparencia y agiliza procesos operativos.',
+      'Sistema de gestión organizacional para la estación de bomberos de Nosara. Resuelve problemas de gestión interna, permite transparencia y agiliza procesos operativos.',
     details: [
       'Módulo de voluntariado para usuarios voluntarios (backend y frontend)',
       'Landing page dinámica con contenido editable',
@@ -43,7 +43,7 @@ export const skillCategories: SkillCategory[] = [
   {
     category: 'Herramientas',
     icon: '&#128296;',
-    items: ['Git', 'GitHub', 'Docker', 'Postman', 'Swagger', 'VS Code'],
+    items: ['Git', 'GitHub', 'Docker', 'Postman', 'Swagger', 'VS Code', 'AI Assisted Development'],
   },
   {
     category: 'Otros conocimientos',
