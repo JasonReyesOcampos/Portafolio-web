@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark-base text-white font-sans antialiased;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply text-brand text-sm font-semibold uppercase tracking-widest block;
+  }
+
+  .btn-primary {
+    @apply bg-brand text-dark-base font-semibold px-6 py-3 rounded-full
+           hover:bg-brand-dark transition-colors duration-200 inline-block;
+  }
+
+  .btn-secondary {
+    @apply border border-white/20 text-white font-medium px-6 py-3 rounded-full
+           hover:border-brand hover:text-brand transition-colors duration-200 inline-block;
+  }
+}
+
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
