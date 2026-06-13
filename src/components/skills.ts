@@ -8,7 +8,7 @@ function createSkillCard(category: SkillCategory, delay: number): string {
       style="transition-delay:${delay}ms"
     >
       <div class="flex items-center gap-3 mb-5">
-        <span class="text-brand text-2xl font-mono">${category.icon}</span>
+        <span class="text-brand">${category.icon}</span>
         <h3 class="text-white font-semibold text-base">${category.category}</h3>
       </div>
       <div class="flex flex-wrap gap-2">

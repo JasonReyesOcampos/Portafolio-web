@@ -1,4 +1,5 @@
 import type { Project, SkillCategory, ContactInfo, NavItem } from './types'
+import { icons } from './icons'
 
 export const navItems: NavItem[] = [
   { label: 'Inicio', href: '#home' },
@@ -27,34 +28,34 @@ export const projects: Project[] = [
 export const skillCategories: SkillCategory[] = [
   {
     category: 'Lenguajes',
-    icon: '{ }',
-    items: ['C#', 'JavaScript', 'TypeScript', 'Python', 'SQL', 'Java'],
+    icon: icons.code2('w-6 h-6'),
+    items: ['HTML', 'C#', 'JavaScript', 'TypeScript', 'Python', 'SQL', 'Java'],
   },
   {
     category: 'Frameworks',
-    icon: '&#9881;',
+    icon: icons.settings('w-6 h-6'),
     items: ['.NET', 'ASP.NET', 'NestJS', 'Node.js', 'React + Vite'],
   },
   {
     category: 'Bases de datos',
-    icon: '&#128451;',
+    icon: icons.database('w-6 h-6'),
     items: ['MySQL', 'PostgreSQL'],
   },
   {
     category: 'Herramientas',
-    icon: '&#128296;',
+    icon: icons.wrench('w-6 h-6'),
     items: ['Git', 'GitHub', 'Docker', 'Postman', 'Swagger', 'VS Code', 'AI Assisted Development'],
   },
   {
     category: 'Otros conocimientos',
-    icon: '&#9670;',
+    icon: icons.diamond('w-6 h-6'),
     items: ['REST APIs', 'Arquitectura por capas', 'TypeORM', 'Entity Framework'],
   },
 ]
 
 export const contactInfo: ContactInfo = {
-  email: 'reyesjason992@gmail.com',
+  email: 'ocamposjason993@gmail.com',
   phone: '+506 8851 1941',
-  location: 'Alajuela, Costa Rica',
+  location: 'Upala, Alajuela, Costa Rica',
   linkedin: 'https://www.linkedin.com/in/jason-reyes-580154299',
 }

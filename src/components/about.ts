@@ -1,3 +1,5 @@
+import { icons } from '../icons'
+
 export function createAbout(): HTMLElement {
   const section = document.createElement('section')
   section.id = 'about'
@@ -49,7 +51,7 @@ export function createAbout(): HTMLElement {
 
         <div class="grid grid-cols-2 gap-4 reveal" style="transition-delay:0.2s">
           <div class="bg-dark-200 border border-white/5 rounded-2xl p-6 hover:border-brand/30 transition-colors duration-300">
-            <div class="text-brand text-3xl font-mono mb-3">{ }</div>
+            <div class="text-brand mb-3">${icons.layers('w-8 h-8')}</div>
             <h3 class="text-white font-semibold mb-2">Arquitectura</h3>
             <p class="text-gray-500 text-sm leading-relaxed">
               Diseño de sistemas por capas y patrones de arquitectura limpios y escalables.
@@ -57,7 +59,7 @@ export function createAbout(): HTMLElement {
           </div>
 
           <div class="bg-dark-200 border border-white/5 rounded-2xl p-6 hover:border-brand/30 transition-colors duration-300 mt-6">
-            <div class="text-brand text-3xl mb-3">&#128269;</div>
+            <div class="text-brand mb-3">${icons.search('w-8 h-8')}</div>
             <h3 class="text-white font-semibold mb-2">Investigación</h3>
             <p class="text-gray-500 text-sm leading-relaxed">
               Capacidad de análisis profundo y resolución de problemas complejos.
@@ -65,7 +67,7 @@ export function createAbout(): HTMLElement {
           </div>
 
           <div class="bg-dark-200 border border-white/5 rounded-2xl p-6 hover:border-brand/30 transition-colors duration-300">
-            <div class="text-brand text-3xl mb-3">&#9889;</div>
+            <div class="text-brand mb-3">${icons.zap('w-8 h-8')}</div>
             <h3 class="text-white font-semibold mb-2">Backend First</h3>
             <p class="text-gray-500 text-sm leading-relaxed">
               Desarrollo end-to-end con .NET, NestJS, Node.js y React.
@@ -73,7 +75,7 @@ export function createAbout(): HTMLElement {
           </div>
 
           <div class="bg-dark-200 border border-white/5 rounded-2xl p-6 hover:border-brand/30 transition-colors duration-300 mt-6">
-            <div class="text-brand text-3xl mb-3">&#129309;</div>
+            <div class="text-brand mb-3">${icons.users('w-8 h-8')}</div>
             <h3 class="text-white font-semibold mb-2">Trabajo en equipo</h3>
             <p class="text-gray-500 text-sm leading-relaxed">
               Experiencia colaborando en proyectos reales con metodologías ágiles.

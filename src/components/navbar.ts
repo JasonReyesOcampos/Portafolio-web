@@ -1,5 +1,6 @@
 import type { NavItem } from '../types'
 import { navItems } from '../data'
+import { icons } from '../icons'
 
 export function createNavbar(): HTMLElement {
   const nav = document.createElement('nav')
@@ -39,12 +40,8 @@ export function createNavbar(): HTMLElement {
         class="md:hidden text-gray-400 hover:text-white transition-colors duration-200"
         aria-label="Abrir menú"
       >
-        <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-        <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
+        <span id="icon-menu">${icons.menu('h-6 w-6')}</span>
+        <span id="icon-close" class="hidden">${icons.close('h-6 w-6')}</span>
       </button>
     </div>
 
@@ -72,8 +69,8 @@ export function createNavbar(): HTMLElement {
 
   const menuBtn = nav.querySelector('#menu-btn') as HTMLButtonElement
   const mobileMenu = nav.querySelector('#mobile-menu') as HTMLDivElement
-  const iconMenu = nav.querySelector('#icon-menu') as SVGElement
-  const iconClose = nav.querySelector('#icon-close') as SVGElement
+  const iconMenu = nav.querySelector('#icon-menu') as HTMLSpanElement
+  const iconClose = nav.querySelector('#icon-close') as HTMLSpanElement
 
   menuBtn.addEventListener('click', () => {
     const isOpen = !mobileMenu.classList.contains('hidden')
