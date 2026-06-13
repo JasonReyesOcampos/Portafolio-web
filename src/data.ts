@@ -28,7 +28,7 @@ export const skillCategories: SkillCategory[] = [
   {
     category: 'Lenguajes',
     icon: '{ }',
-    items: ['C#', 'JavaScript', 'TypeScript', 'Python', 'SQL', 'Java'],
+    items: ['HTML', 'C#', 'JavaScript', 'TypeScript', 'Python', 'SQL', 'Java'],
   },
   {
     category: 'Frameworks',
@@ -53,8 +53,8 @@ export const skillCategories: SkillCategory[] = [
 ]
 
 export const contactInfo: ContactInfo = {
-  email: 'reyesjason992@gmail.com',
+  email: 'ocamposjason993@gmail.com',
   phone: '+506 8851 1941',
-  location: 'Alajuela, Costa Rica',
+  location: 'Upala, Alajuela, Costa Rica',
   linkedin: 'https://www.linkedin.com/in/jason-reyes-580154299',
 }
