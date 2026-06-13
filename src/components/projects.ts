@@ -1,5 +1,6 @@
 import type { Project } from '../types'
 import { projects } from '../data'
+import { icons } from '../icons'
 
 function createProjectCard(project: Project): string {
   const linksHtml = project.url
@@ -12,9 +13,7 @@ function createProjectCard(project: Project): string {
         aria-label="Ver demo de ${project.title}"
       >
         Ver demo
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-        </svg>
+        ${icons.externalLink('w-4 h-4')}
       </a>
     `
     : ''
@@ -35,9 +34,7 @@ function createProjectCard(project: Project): string {
               class="bg-white/5 hover:bg-brand/20 border border-white/10 hover:border-brand/50 text-white hover:text-brand rounded-full p-2 flex transition-all duration-200"
               aria-label="Abrir ${project.title}"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
+              ${icons.externalLink('w-4 h-4')}
             </a>
           `
               : ''
@@ -106,9 +103,7 @@ export function createProjects(): HTMLElement {
 
         <div class="bg-dark-100 border border-dashed border-white/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center min-h-64">
           <div class="w-12 h-12 rounded-full bg-dark-200 flex items-center justify-center mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-            </svg>
+            ${icons.plus('w-6 h-6 text-gray-600')}
           </div>
           <p class="text-gray-500 font-medium">Más proyectos próximamente</p>
           <p class="text-gray-700 text-sm mt-1">En construccion...</p>

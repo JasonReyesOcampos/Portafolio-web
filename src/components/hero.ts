@@ -1,3 +1,5 @@
+import { icons } from '../icons'
+
 export function createHero(): HTMLElement {
   const section = document.createElement('section')
   section.id = 'home'
@@ -18,9 +20,7 @@ export function createHero(): HTMLElement {
             class="relative w-full h-full rounded-2xl bg-dark-200 border border-white/8 flex items-center justify-center overflow-hidden"
           >
             <div class="text-center text-gray-600 select-none">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 mx-auto mb-3 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
+              ${icons.user('w-20 h-20 mx-auto mb-3 opacity-30')}
               <p class="text-sm font-medium">Foto próxima</p>
             </div>
           </div>
@@ -64,9 +64,7 @@ export function createHero(): HTMLElement {
     </div>
 
     <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-600 animate-bounce">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-      </svg>
+      ${icons.chevronDown('w-5 h-5')}
     </div>
   `
 
